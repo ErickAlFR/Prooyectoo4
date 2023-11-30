@@ -18,5 +18,5 @@ if hist_button:
 hist_button= st.button('Mostrar diagrama de dispersión')
 if hist_button:
     st.write('Diagrama de dispersión que relaciona precio, año y condición')
-    fig = px.scatter(car_data, x="price", y="model_year", color='condition')
+    fig = px.scatter(car_data, x="price", y="model_year", symbol='condition')
     fig.show()
