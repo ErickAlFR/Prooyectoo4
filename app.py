@@ -2,6 +2,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+st.header('Proyecto 4')
+st.write('*Web app hecha en Python* :sunglasses:')
+
 car_data = pd.read_csv('vehicles_us.csv')
 hist_button = st.button('Construir histograma') # crear un botó
 
